@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+   font-size: 80%;
 }
 body {
   font-family: "Goldman", cursive;
+  background-image: url(/img/background.jpeg);
+  background-size: cover;
 }
 
 nav {
@@ -36,4 +38,11 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+h1{
+  /* position: absolute; */
+  color:aliceblue;
+  text-align: center;
+  font-size: 600%;
 }
