@@ -8,41 +8,302 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+ }
+
+ .beginscherm{
+  font-family: "Goldman", cursive;
   background-image: url(/img/background.jpeg);
   background-size: cover;
-}
+ }
 
-nav {
-  display: flex;
-  width: 100%;
-  padding: 2rem;
-  min-height: 10vh;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
-  background: #00a8c7;
-  justify-content: space-between;
-}
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
 nav li {
-  font-size: 2.5rem;
-  padding: 0 4rem 0 4rem;
+  font-size: 2rem;
+  padding: 0 3.3rem 0 3.3rem;
 }
 nav a {
   color: white;
   text-decoration: none;
+  font-weight: bolder;
 }
 nav img {
   width: 5vw;
 }
 
-h1{
-  /* position: absolute; */
+.beginscherm-h1{
   color:aliceblue;
   text-align: center;
   font-size: 600%;
 }
+
+
+.body-htmlenphp{
+  font-family: "Goldman", cursive;
+}
+
+footer{
+  color: aliceblue;
+  background-color: #00a8c7;
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
+  position: absolute;
+  top: 85%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+
+}
+
+php{
+}
+
+.navigatie{
+  display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+}
+
+#p-php{
+  position: absolute;
+  left: 52%;
+  top: 41%;
+  font-size: 18px;
+  
+ 
+}
+mark.purple{
+  background: none;
+  color: #8993BE;
+
+}
+
+#h2-php{
+  position: absolute;
+  left: 52%;
+  top: 36%;
+  font-size: 25px;
+}
+
+.htmlenphp{
+  text-align: center;
+  font-size: 500%;
+}
+#img-php{
+  position: absolute;
+  top: 38%;
+  left: 9%;
+  height: 260px;
+}
+
+php{}
+
+
+
+
+
+
+/* html-css{} */
+
+.htmlimg1{
+  position: absolute;
+  width: 30%;
+  left: 13%;
+}
+
+
+#p-html{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-size: 20px;
+
+}
+
+#h2-html{
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  font-size: 25px;
+}
+
+mark.red{
+  background: none;
+  color: red;
+}
+mark.blue{
+  background: none;
+  color: blue;
+}
+
+html-css{}
+
+
+java{}
+
+.sqlenjava{
+  text-align: center;
+  font-size: 550%;
+  color: azure;
+}
+
+.blaka{
+  background-color: black;
+    background-size: cover;
+    font-family: "Goldman", cursive;
+}
+
+
+#p-javascript{
+  position: absolute;
+  right: 53%;
+  top: 41%;
+  font-size: 19px;
+  font-family: goldman;
+  color: azure;
+}
+
+#h2-javascript{
+  position: absolute;
+  right: 71%;
+  top: 36%;
+  font-size: 25px;
+  color: azure;
+}
+
+#img-javascript{
+  position: absolute;
+  top: 36%;
+  right: 20%;
+  height: 260px;
+}
+
+mark.yellow{
+  background: none;
+  color: yellow;
+}
+
+java{}
+
+
+sql{}
+
+#p-sql{
+  position: absolute;
+  right: 58%;
+  top: 41%;
+  font-size: 19px;
+  color: azure;
+  
+}
+
+#h2-sql{
+  position: absolute;
+  right: 82%;
+  top: 36%;
+  font-size: 25px;
+  color: azure;
+  }
+
+  #img-sql{
+    position: absolute;
+    top: 32%;
+    right: 12%;
+    height: 230px;
+  }
+
+  mark.orange{
+    background: none;
+    color: orange;
+  }
+
+  sql{}
+
+
+  contact{}
+
+  #Naam{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+
+   }
+
+ #Email{
+  position: absolute;
+  top: 40%;
+  left: 25%;
+ }
+
+ #Bericht{
+  position: absolute;
+  top: 52%;
+  left: 25%;
+  width: 43.5%;
+  height: 15%;
+ }
+
+ input{
+
+  padding: 10px;
+  border: black solid 1px;
+  border-radius: 7px;
+ }
+
+ label{
+  font-size: 18px;
+ }
+
+ #h1-contact{
+  text-align: right;
+  position: absolute;
+  top: 18%;
+  left: 37%;
+  font-size: 70px;
+  
+}
+
+#para-maken{
+  position: absolute;
+  left: 25%;
+  top: 49%;
+  font-size: 18px;
+}
+
+.formStyle{
+  position: absolute;
+  left:0%;
+}
+
+
+#verstuur-ber{
+  background-color: #00a8c7;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 43.5%;
+  position: absolute;
+  left: 25%;
+  top: 71%;
+  
+}
+
+
+
+
+
+

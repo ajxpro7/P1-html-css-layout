@@ -10,33 +10,44 @@
       href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Opdracht 3</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     
-    <nav>
+    <nav class="navigatie" >
       <img src="./img/hacker.png" id="logo" />
       <ul>
-        <li><a href="html-css.css">HTML/CSS</a></li>
+        <li><a href="html-css.html">HTML/CSS</a></li>
         <li><a href="javascript.html">Javascript</a></li>
         <li><a href="php.html">PHP</a></li>
         <li><a href="mysql.html">SQL</a></li>
         <li><a href="contact.html">contact</a></li>
       </ul>
     </nav>
-    <form action="">
-        <label for="name">Naam</label>
-        <input type="text" name="name">
+
+    <h1 id="h1-contact" >contact</h1>
+    <br><br><br>
+    <form id="Naam" action="">
+        <label for="name" class="formStyle">Naam</label> <br><br>
+        <input type="text" name="name" size="100">
     </form>
-    <br><br>
-    <form action="">
-        <label for="Email">Email</label>
-        <input type="text" name="Email">
+    <br><br><br><br>
+    <form id="Email" action="">
+        <label for="Email" class="formStyle">E-mail</label> <br><br>
+        <input type="text" name="Email" size="100">
     </form>
-    <br><br>
+    <br><br><br><br>
     <form action="">
-        <label for="text">Bericht</label>
-        <input type="text" name="text">
+        <label for="message"  class="formStyle"></label><br><br>
+        <input type="text" name="message" id="Bericht">
     </form>
-    <input type="submit">
+<p id="para-maken">Bericht</p>
+    <br><br><br>
+    <input id="verstuur-ber" type="submit">
+
+    <footer>Copyright Techniek College Rotterdam</footer>
