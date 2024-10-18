@@ -51,7 +51,7 @@ footer{
   font-size: 20px;
   padding: 50px;
   text-align: center;
-  position: absolute;
+  position: fixed;
   top: 85%;
   left: 0px;
   right: 0px;
@@ -72,6 +72,7 @@ php{
     margin: auto;
     background: #00a8c7;
     justify-content: space-between;
+    position: sticky;
 }
 
 #p-php{
@@ -165,9 +166,12 @@ java{}
 
 
 #p-javascript{
-  position: absolute;
-  right: 53%;
-  top: 41%;
+  /* position: absolute; */
+  float: left;
+  margin-top: 7%;
+  margin-left: 13%;
+  /* right: 53%; */
+  /* top: 41%; */
   font-size: 19px;
   font-family: goldman;
   color: azure;
@@ -175,16 +179,19 @@ java{}
 
 #h2-javascript{
   position: absolute;
-  right: 71%;
-  top: 36%;
+  right: 72%;
+  top: 35%;
   font-size: 25px;
   color: azure;
 }
 
 #img-javascript{
-  position: absolute;
-  top: 36%;
-  right: 20%;
+  /* position: absolute; */
+  float: right;
+  margin-right: 20%;
+  margin-top: 11vh;
+  /* top: 36%; */
+  /* right: 20%; */
   height: 260px;
 }
 
