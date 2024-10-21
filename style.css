@@ -15,15 +15,16 @@ body {
   background-image: url(/img/background.jpeg);
   background-size: cover;
  }
-
-nav ul {
-  display: flex;
+ 
+ .conte1 {
+  display: inline-flex;
   align-items: center;
   list-style-type: none;
 }
 nav li {
   font-size: 2rem;
-  padding: 0 3.3rem 0 3.3rem;
+  padding: 0 3rem 0 3rem;
+  list-style-type: none;
 }
 nav a {
   color: white;
@@ -34,7 +35,36 @@ nav img {
   width: 5vw;
 }
 
+ul li ul.dropdown{
+  width: 300px;
+  position: absolute;
+  right: 6.35%;
+  display: none;
+}
+
+.dropdown li a{
+  display: block;
+  font-size: 25px;
+  padding: 15px;
+  color: #00a8c7;
+  background-color: white;
+  text-decoration: none;
+  }
+
+  ul li a:hover{
+    color: #00a8c7;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  ul li:hover ul.dropdown{
+    display: block;
+  }
+
+
 .beginscherm-h1{
+  float: right;
+  margin-right: 38vh;
   color:aliceblue;
   text-align: center;
   font-size: 600%;
